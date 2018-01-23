@@ -87,7 +87,7 @@ app:layout_constraintTop_toBottomOf="id"` 意思是：设置这个属性的View�
         android:text="@string/btn_name"
         app:layout_constraintBottom_toTopOf="@id/tv" />
 
-请见：activity_main.xml
+请见：[activity_main.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main.xml)
 
 > **2.2 子View坐标**
 
@@ -104,7 +104,7 @@ LinearLayout的weightSum属性。它能很好的适配线性布局下的某个�
 	app:layout_constraintVertical_bias="0.9"
 
 
-请看 activity_main3.xml
+请看 [activity_main3.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main3.xml)
 
 * （2） 权重
 除上述用法之外，也可以实现类似于LinearLayout的权重的特性。我们增加3个textview来冒充tab。
@@ -114,7 +114,7 @@ LinearLayout的weightSum属性。它能很好的适配线性布局下的某个�
     app:layout_constraintHorizontal_weight="2" 水平方向权重为2
     app:layout_constraintVertical_weight="3" 垂直方向权重为3
 
-请见：activity_main6.xml
+请见：[activity_main6.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main6.xml)
 
 在上例基础上还有一个属性：有3个值可以选择：
     app:layout_constraintHorizontal_chainStyle="spread"
@@ -125,7 +125,7 @@ LinearLayout的weightSum属性。它能很好的适配线性布局下的某个�
 packed这个值的时候，宽度必须是非0
 
 
-请见：activity_main7.xml
+请见：[activity_main7.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main7.xml)
 
 ![权重图](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/pic/%E6%9D%83%E9%87%8D%E5%9B%BE.png?raw=true)
 
@@ -140,7 +140,7 @@ packed这个值的时候，宽度必须是非0
 横向排列的两个Button，第一个Button设置为gone,第二个设置app:layout_goneMarginLeft="50dp"，
 那么就回出现在A位置上往右边移动50dp
 
-请看 activity_main4.xml
+请看 [activity_main4.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main4.xml)
 
 > **2.4 宽高比适配**
 
@@ -153,7 +153,7 @@ packed这个值的时候，宽度必须是非0
 
 	这样一个子view就会根据ConstraintLayout本身而去完成比例适配，相当方便。
 
-请看activity_main9.xml
+请看  [activity_main9.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main9.xml)
 
 ----
 
@@ -178,11 +178,11 @@ begin=30dp，即可认为距离顶部30dp的地方有个辅助线，根据orient
 end=30dp，即为距离底部。 
 percent=0.8即为距离顶部80%
 
-这个很简单，请看activity_main8.xml
+这个很简单，请看  [activity_main8.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main8.xml)
 
 
 ----
 
 混合效果演示：
 
-请看activity_main5.xml 这么复杂的布局，完全没有嵌套布局，很清爽。
+请看  [activity_main5.xml](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/app/src/main/res/layout/activity_main5.xml) 这么复杂的布局，完全没有嵌套布局，很清爽。
