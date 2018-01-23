@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_ratio1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/gray"
+        android:gravity="top"
+        android:text="@string/btn_ratio1_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,5:1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ratio2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/btn_ratio2_name"
+        app:layout_constraintBottom_toBottomOf="@id/btn_ratio1"
+        app:layout_constraintLeft_toLeftOf="@id/btn_ratio1"
+        app:layout_constraintRight_toRightOf="@id/btn_ratio1"
+        app:layout_constraintTop_toTopOf="@id/btn_ratio1" />
+
+    <Button
+        android:id="@+id/btn_ratio3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/bgColor"
+        android:gravity="top"
+        android:text="@string/btn_ratio3_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,5:2"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <Button
+        android:id="@+id/btn_ratio4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/btn_ratio4_name"
+        app:layout_constraintBottom_toBottomOf="@id/btn_ratio3"
+        app:layout_constraintLeft_toLeftOf="@id/btn_ratio3"
+        app:layout_constraintRight_toRightOf="@id/btn_ratio3"
+        app:layout_constraintTop_toTopOf="@id/btn_ratio3" />
+</android.support.constraint.ConstraintLayout>

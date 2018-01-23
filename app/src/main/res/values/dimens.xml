@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_tv_10">10dp</dimen>
+    <dimen name="dimen_tv_20">20dp</dimen>
+
+    <dimen name="textsize_btn_10">10sp</dimen>
+    <dimen name="textsize_btn_12">12sp</dimen>
+
+    <dimen name="textsize_12">12sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ConstraintLayoutDemo</string>
+	<string name="textname">Hello World!</string>
+	<string name="textview_name">这是TextView</string>
+	<string name="btn_name">这是Button</string>
+	<string name="btn2_name">这是Button2</string>
+	<string name="btn3_name">这是Button3</string>
+
+	<string name="btn4_name">这是有线性适配的Button</string>
+	<string name="btn5_name">这是很标准的居中Button</string>
+
+	<string name="btn6_name">这是自定义控制的属性Button  A</string>
+	<string name="btn7_name">这是自定义控制的属性Button  B</string>
+
+	<string name="btn_tab1_name">tab1</string>
+	<string name="btn_tab2_name">tab2</string>
+	<string name="btn_tab3_name">tab3</string>
+
+	<string name="btn_ratio1_name">ratio1</string>
+	<string name="btn_ratio2_name">ratio2</string>
+	<string name="btn_ratio3_name">ratio3</string>
+	<string name="btn_ratio4_name">ratio4</string>
+
+	<string name="tv_guideline">显示GuildeLine</string>
+
+	<string name="tv_sample_title">今天杭城入秋了，但等待我们的却是阴阴雨雨！</string>
+	<string name="tv_sample_time">杭州天气 ⋅ 0评论 ⋅ 2小时前</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_tab1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/btn_tab1_name"
+        android:textSize="@dimen/textsize_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_tab2" />
+
+    <Button
+        android:id="@+id/btn_tab2"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/btn_tab2_name"
+        android:textSize="@dimen/textsize_12"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btn_tab1"
+        app:layout_constraintRight_toLeftOf="@id/btn_tab3" />
+
+    <Button
+        android:id="@+id/btn_tab3"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/btn_tab3_name"
+        android:textSize="@dimen/textsize_12"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btn_tab2"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
