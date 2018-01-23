@@ -5,7 +5,7 @@
 
 ConstraintLayout的基本属性如下图所示：
 
-![基本属性](/基本的属性.png)
+![基本属性](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/pic/%E5%9F%BA%E6%9C%AC%E7%9A%84%E5%B1%9E%E6%80%A7.png?raw=true)
 
 ----
 
@@ -127,7 +127,7 @@ packed这个值的时候，宽度必须是非0
 
 请见：activity_main7.xml
 
-![权重图](/权重图.png)
+![权重图](https://github.com/AweiLoveAndroid/ConstraintLayoutDemo/blob/master/pic/%E6%9D%83%E9%87%8D%E5%9B%BE.png?raw=true)
 
 > **2.3 适配属性之goneMargin，是一个自定义控制的属性。效果貌似不是很明显。**
 
